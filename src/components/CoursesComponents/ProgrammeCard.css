@@ -1,0 +1,64 @@
+
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 120vh;
+    gap: 40px;
+    height: max-content;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.image{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 35px;
+}
+
+.duration{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.Time{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.address{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.apply-button{
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px){
+    .card-container{
+        width: 100%;
+    }
+  }
+
+@media (max-width: 480px) {
+  .card-container{
+    width: 100%;
+    height: max-content;
+    gap: 20px;
+  }  
+}
+

@@ -1,0 +1,116 @@
+.courses{
+    text-align: center;
+    padding: 45px;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 17px;
+    /* color:#e59800 ; */
+    margin-bottom: 75px;
+}
+
+.courses > .bootcamp-description{
+    /* width: 50%; */
+    font-size: 19px;
+    padding: 0 85px;
+    color: grey;
+}
+
+
+  
+  .course-list-available {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .course-card-available {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 45px;
+    /* border: 1px solid #ccc; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 45px;
+    width: 18%;
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .course-card-available:hover {
+    transform: scale(1.05);
+    background-color: #fca311;
+    color: white;
+  }
+
+  .course-link{
+    color: black;
+    border-bottom: 1px solid black;
+  }
+  .course-link:hover{
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  
+  .course-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .course-name {
+    font-size: 1.1rem;
+  }
+  @media only screen and (max-width: 768px){
+    .courses > .bootcamp-description{
+      font-size: 16px;
+      padding: 25px;
+    }
+    .course-card-available{
+        width: 100%;
+        padding: 10px;
+    }
+  }
+
+  @media (max-width: 480px){ 
+    .courses{
+      text-align: center;
+      padding: 15px;
+  }
+  .courses > h1{
+    width: 100%;
+    font-size: 37px;
+  }
+  .location{
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.courses > .bootcamp-description{
+  font-size: 19px;
+  padding: 0 10px;
+  text-align: left;
+}
+.course-list-available {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.course-card-available {
+  padding: 20px 45px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 45px;
+  width: 70%;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+  }
+   

@@ -1,0 +1,71 @@
+/* HomepageSection.css */
+.homepage-section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    background-color: black;
+    color: #fff;
+  }
+  
+  .counter-item {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+  
+  .counter-number {
+    font-size: 75px;
+    margin-bottom: 10px;
+  }
+  
+  .counter-label {
+    font-size: 19px;
+  }
+  
+  .descriptions {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .description {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .description h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .description p {
+    font-size: 1.1rem;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px){
+    .homepage-section {
+      padding: 20px 0;
+    }
+    .counter {
+     
+     flex-direction: column;
+      margin-bottom: 20px;
+      background-color: black;
+      color: #fff;
+    }
+    .counter-item {
+      flex: 1;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 0 0;
+    }
+    .counter-number {
+      font-size: 45px;
+    }
+  }
+  

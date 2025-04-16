@@ -1,0 +1,33 @@
+
+
+
+  .data-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 45px 65px;
+  }
+
+  .course-description{
+    width: 60%;
+  }
+
+  @media only screen and (max-width: 768px){
+    .data-container{
+      flex-direction: column;
+    }
+    .course-description{
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .data-container{
+      flex-direction: column;
+      padding: 25px;
+    }
+    .course-description{
+      width: 100%;
+    }
+  }

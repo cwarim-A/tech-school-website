@@ -1,0 +1,55 @@
+/* HeroSection.css */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding: 85px 65px;
+}
+
+.hero-section > img{
+    width: 40%;
+}
+
+.hero-content > p {
+    font-size: 19px;
+    color: #333;
+}
+
+
+
+
+
+
+.cta-button {
+  display: inline-block;
+  background-color: #fca311;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e59800;
+  color: white;
+}
+
+@media only screen and (min-width: 768px){
+  .hero-section > img{
+    width: 50%;
+}
+}
+
+@media  (max-width: 480px) {
+  .hero-section{
+    flex-direction:column-reverse;
+    padding: 15px 25px;
+    gap:40px;
+  }
+  .hero-section > img{
+    width: 100%;
+}
+}

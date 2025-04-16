@@ -1,0 +1,86 @@
+/* ContactUsPage.css */
+.contact-us-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 70px;
+  }
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.contact-form > input,textarea{
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.contact-form > p{
+    width: 80%;
+    font-size: 18px;
+}
+
+.contact-form > input:hover{
+    border: 1px solid #fca311;
+}
+
+.contact-form > textarea:hover{
+    border: 1px solid #fca311;
+}
+  
+.contact-form > button{
+    background-color: black;
+    color: white;
+    width: 20%;
+    padding: 15px;
+}
+  
+.contact-us-page > img{
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    .contact-us-page {
+        display: flex;
+        gap: 40px;
+        padding: 0;
+      }
+    
+    .contact-us-page > img{
+        display: none;
+    } 
+    .contact-form{
+        gap: 15px;
+        width: 100%;
+        background-color: lightgray;
+        border-radius: 5px;
+        padding: 25px;
+    }
+    .contact-form > h1{
+        text-align: center;
+    }
+    .contact-form > p{
+       width: 100%;
+        text-align: center;
+    }
+    .contact-form > input,textarea{
+        width: 90%;
+       
+    }
+    .contact-form > button{
+        background-color: black;
+        color: white;
+        width: 100%;
+        padding: 15px;
+    }
+}
